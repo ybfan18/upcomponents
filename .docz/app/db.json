@@ -1,0 +1,264 @@
+{
+  "config": {
+    "title": "Upcomponent",
+    "description": "My awesome app using docz",
+    "menu": [],
+    "version": "0.1.0",
+    "repository": null,
+    "native": false,
+    "themeConfig": {},
+    "separator": "-"
+  },
+  "entries": [
+    {
+      "key": "README.md",
+      "value": {
+        "id": "04c6e90faac2675aa89e2176d2eec7d8",
+        "filepath": "README.md",
+        "fullpath": "/Users/fanyabo/Desktop/ybfan/myappExt/README.md",
+        "link": "",
+        "hidden": false,
+        "slug": "readme",
+        "route": "/readme",
+        "name": "Readme",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "getting-started-with-create-react-app",
+            "depth": 1,
+            "value": "Getting Started with Create React App"
+          },
+          {
+            "slug": "available-scripts",
+            "depth": 2,
+            "value": "Available Scripts"
+          },
+          {
+            "slug": "npm-start",
+            "depth": 3,
+            "value": "npm start"
+          },
+          {
+            "slug": "npm-test",
+            "depth": 3,
+            "value": "npm test"
+          },
+          {
+            "slug": "npm-run-build",
+            "depth": 3,
+            "value": "npm run build"
+          },
+          {
+            "slug": "npm-run-eject",
+            "depth": 3,
+            "value": "npm run eject"
+          },
+          {
+            "slug": "learn-more",
+            "depth": 2,
+            "value": "Learn More"
+          },
+          {
+            "slug": "code-splitting",
+            "depth": 3,
+            "value": "Code Splitting"
+          },
+          {
+            "slug": "analyzing-the-bundle-size",
+            "depth": 3,
+            "value": "Analyzing the Bundle Size"
+          },
+          {
+            "slug": "making-a-progressive-web-app",
+            "depth": 3,
+            "value": "Making a Progressive Web App"
+          },
+          {
+            "slug": "advanced-configuration",
+            "depth": 3,
+            "value": "Advanced Configuration"
+          },
+          {
+            "slug": "deployment",
+            "depth": 3,
+            "value": "Deployment"
+          },
+          {
+            "slug": "npm-run-build-fails-to-minify",
+            "depth": 3,
+            "value": "npm run build  fails to minify"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/components/Alert/Alert.mdx",
+      "value": {
+        "name": "Alert",
+        "route": "/Alert",
+        "menu": "业务组件",
+        "id": "9c91e8af3f0bac2312d1cef1739af53e",
+        "filepath": "src/components/Alert/Alert.mdx",
+        "fullpath": "/Users/fanyabo/Desktop/ybfan/myappExt/src/components/Alert/Alert.mdx",
+        "link": "",
+        "hidden": false,
+        "slug": "src-components-alert-alert",
+        "headings": [
+          {
+            "slug": "alert",
+            "depth": 1,
+            "value": "Alert"
+          },
+          {
+            "slug": "properties",
+            "depth": 2,
+            "value": "Properties"
+          },
+          {
+            "slug": "basic-usage",
+            "depth": 2,
+            "value": "Basic usage"
+          },
+          {
+            "slug": "using-different-kinds",
+            "depth": 2,
+            "value": "Using different kinds"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/components/UpButton/UpButton.mdx",
+      "value": {
+        "name": "UpButton",
+        "route": "/UpButton",
+        "menu": "业务组件",
+        "id": "e8e56fa8c460e900a6af1725d3b2b786",
+        "filepath": "src/components/UpButton/UpButton.mdx",
+        "fullpath": "/Users/fanyabo/Desktop/ybfan/myappExt/src/components/UpButton/UpButton.mdx",
+        "link": "",
+        "hidden": false,
+        "slug": "src-components-up-button-up-button",
+        "headings": [
+          {
+            "slug": "upbutton",
+            "depth": 1,
+            "value": "UpButton"
+          },
+          {
+            "slug": "properties",
+            "depth": 2,
+            "value": "Properties"
+          },
+          {
+            "slug": "basic-usage",
+            "depth": 2,
+            "value": "Basic usage"
+          },
+          {
+            "slug": "using-different-kinds",
+            "depth": 2,
+            "value": "Using different kinds"
+          }
+        ]
+      }
+    }
+  ],
+  "props": [
+    {
+      "key": "src/App.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "App",
+          "methods": [],
+          "actualName": "App"
+        }
+      ]
+    },
+    {
+      "key": "src/components/Alert/Alert.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Alert",
+          "methods": [],
+          "actualName": "Alert",
+          "props": {
+            "kind": {
+              "type": {
+                "name": "enum",
+                "value": [
+                  {
+                    "value": "'info'",
+                    "computed": false
+                  },
+                  {
+                    "value": "'positive'",
+                    "computed": false
+                  },
+                  {
+                    "value": "'negative'",
+                    "computed": false
+                  },
+                  {
+                    "value": "'warning'",
+                    "computed": false
+                  }
+                ]
+              },
+              "required": false,
+              "description": "The kind prop is used to set the alert's background color",
+              "defaultValue": {
+                "value": "'info'",
+                "computed": false
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "src/components/UpButton/UpButton.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "UpButton",
+          "methods": [],
+          "actualName": "UpButton",
+          "props": {
+            "kind": {
+              "type": {
+                "name": "enum",
+                "value": [
+                  {
+                    "value": "'primary'",
+                    "computed": false
+                  },
+                  {
+                    "value": "'dashed'",
+                    "computed": false
+                  },
+                  {
+                    "value": "'text'",
+                    "computed": false
+                  },
+                  {
+                    "value": "'link'",
+                    "computed": false
+                  }
+                ]
+              },
+              "required": false,
+              "description": "The kind prop is used to set the alert's background color",
+              "defaultValue": {
+                "value": "'primary'",
+                "computed": false
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

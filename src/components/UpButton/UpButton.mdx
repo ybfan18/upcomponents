@@ -1,0 +1,28 @@
+---
+name: UpButton
+route: /UpButton
+menu: 业务组件
+---
+import {Playground,Props} from 'docz';
+import {UpButton} from './UpButton';
+
+# UpButton
+
+## Properties
+
+<Props of={UpButton} />
+
+## Basic usage
+
+<Playground>
+<UpButton>Some message</UpButton>
+</Playground>
+
+## Using different kinds
+
+<Playground>
+  <UpButton kind="primary">Some message</UpButton>
+  <UpButton kind="dashed">Some message</UpButton>
+  <UpButton kind="text">Some message</UpButton>
+  <UpButton kind="link">Some message</UpButton>
+</Playground>
